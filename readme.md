@@ -1,5 +1,5 @@
-#Cookout
+# Cookout
 
 Comments in the script.js file
 
-###Tina, Eat the Food!
+### Tina, Eat the Food!

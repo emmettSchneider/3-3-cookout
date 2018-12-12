@@ -32,16 +32,17 @@ const cookedFood = [];
 
 
 function grill (currentObject) {
-    for (let i = 0; i < uncookedFood.length; i++) {
-   
    // Modify the food so that it is cooked
-    currentObject.cooked = true;
+	currentObject.cooked = true;
+	
      // Put the cooked food into the appropriate array
     cookedFood.push(currentObject);
     }
-};
+;
 
 // Your task is to iterate over the array of uncookedFood and invoke the function for each item so that the cookedFood array contains all of the items after they are cooked.
 
-grill(uncookedFood);
+for (i = 0; i < uncookedFood.length; i++) {
+	grill(uncookedFood[i]);
+}
 console.log(cookedFood);
